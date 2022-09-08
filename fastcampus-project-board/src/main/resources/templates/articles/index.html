@@ -15,7 +15,7 @@
 </head>
 
 <body>
-<header id="header">
+<header th:replace="~{header :: header}">
     헤더 삽입부
     <hr>
 </header>
@@ -109,7 +109,7 @@
     </div>
 </main>
 
-<footer id="footer">
+<footer  th:replace="~{footer :: footer}">
     <hr>
     푸터 삽입부
 </footer>
